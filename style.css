@@ -1,0 +1,22 @@
+body {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
+}
+
+/* adding border color for col-md-6 div */
+.col-md-6 {
+  border: 5px solid black;
+  margin-top: 150px !important; /*to bring it at the center of page*/
+  padding: 20px;
+}
+
+button {
+  margin: 20px !important; /*to override bootsrap classes*/
+  border: 2px solid black !important;
+}
+
+h1 {
+  font-weight: bold !important;
+  margin: 20px !important;
+}
